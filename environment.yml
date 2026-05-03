@@ -1,0 +1,15 @@
+name: global-equity-research
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - pytz
+  - requests
+  - pip:
+      - yfinance>=0.2.40
+      - feedparser>=6.0.11
+      - ollama>=0.3.0
